@@ -1,0 +1,25 @@
+.landing-page {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.landing-page .head-tag {
+    text-align: left;
+    font-size: 32px;
+    color: #4F575E;
+}
+.landing-page .title {
+    margin-top: 200px;
+    font-size: 64px;
+    color: #000000;
+}
+
+@media screen and (max-width: 767px) {
+    .landing-page .head-tag {
+        font-size: 16px;
+        text-align: center;
+    }
+    .landing-page .title {
+        margin-top: 150px;
+        font-size: 32px;
+    }
+}

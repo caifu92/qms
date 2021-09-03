@@ -1,0 +1,32 @@
+.system-information-page {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.system-information-page .tab-wrapper {
+    border-bottom: 1px solid #CED4DA;
+    padding-bottom: 5px;
+}
+.system-information-page .tab-wrapper .tab {
+    width: fit-content;
+    font-size: 13px;
+    font-weight: 400;
+    border-bottom: 2px solid #EF454A;
+    padding-bottom: 15px;
+}
+
+.system-information-page .form-system-info {
+    color: #4F575E;
+    padding: 30px 25px;
+    margin-top: 40px;
+    font-size: 14px;
+}
+.system-information-page .form-system-info .row {
+    text-align: left;
+}
+.system-information-page .form-system-info .row > div:nth-child(1) {
+    line-height: 38px;
+}
+.system-information-page .form-system-info .reception-hours {
+    display: flex;
+    align-items: center;
+}

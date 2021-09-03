@@ -1,0 +1,16 @@
+.error-page {
+    padding-top: 180px;
+}
+.error-page .error-text {
+    font-size: 32px;
+    margin-bottom: 180px;
+}
+.error-page .back-button {
+    max-width: 400px;
+}
+
+@media screen and (max-width: 767px) {
+    .error-page .back-button {
+        width: 100%;
+    }
+}

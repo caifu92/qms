@@ -1,0 +1,31 @@
+.status-button {
+    width: 130px;
+    padding: 7px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+}
+.status-button.working {
+    background: #00AFEC;
+}
+.status-button.waiting {
+    background: #00A95F;
+}
+.status-button.cancel {
+    background: #F6AD3C;
+}
+.status-button.done {
+    background: #CCCCCC;
+}
+.status-button span {
+    margin-left: 15px;
+}
+
+@media screen and (max-width: 767px) {
+    .status-button {
+        width: 105px
+    }
+    .status-button span {
+        margin-left: 5px;
+    }
+}

@@ -1,0 +1,27 @@
+.ticket-page {
+    padding-bottom: 50px;
+}
+.ticket-page .page-title {
+    color: #000;
+    font-size: 30px;
+    line-height: 35px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.ticket-page .page-content {
+    padding: 80px 10px;
+    font-size: 24px;
+    line-height: 28px;
+    color: #000;
+}
+.ticket-page .page-content .shop-name {
+    margin-bottom: 80px;
+}
+.ticket-page .page-content .row .value {
+    color: rgba(239, 69, 74, 0.78);
+}
+.ticket-page .page-content .description {
+    font-size: 16px;
+    line-height: 19px;
+    margin-top: 80px;
+}

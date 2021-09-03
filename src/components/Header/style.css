@@ -1,0 +1,70 @@
+.header {
+    position: fixed;
+    width: 100%;
+    height: 70px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    background: #fff;
+    display: flex;
+    align-items: center;
+    z-index: 100;
+}
+.header a.header-logo {
+    margin-top: 4px;
+}
+.header a.header-logo:hover {
+    text-decoration: none;
+}
+.header a.header-logo img {
+    width: 32px;
+    height: 32px;
+}
+.header a.header-logo p {
+    line-height: 32px;
+    font-size: 14px;
+    margin-left: 10px;
+    margin-bottom: 0px;
+    color: black;
+}
+.header .main-menu-dropdown button {
+    background-color: #fff !important;
+    border-color: #fff !important;
+    padding: .375rem .375rem .375rem .75rem;
+}
+.header .main-menu-dropdown button::after {
+    display: none;
+}
+.header .main-menu-dropdown button:focus, .header .main-menu-dropdown button:active {
+    border-color: white !important;
+    background-color: #fff !important;
+    box-shadow: none !important;
+    outline: none;
+}
+.header .main-menu-dropdown button:hover {
+    background-color: #fff;
+    border-color: white;
+    opacity: 0.8;
+}
+.header .dropdown-item {
+    color: #EF454A;
+    font-size: 14px;
+}
+.header .dropdown-item a {
+    color: #EF454A;
+    text-decoration: none;
+}
+.header .dropdown-item a:hover {
+    color: #16181b;
+}
+.header .auth-button {
+    font-size: 18px;
+    line-height: 32px;
+    color: #000;
+    border: none;
+    background: transparent;
+}
+
+@media screen and (max-width: 420px) {
+    .header .header-logo p {
+        display: none;
+    }
+}

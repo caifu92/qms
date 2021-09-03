@@ -1,0 +1,140 @@
+.waiting-list-page {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.waiting-list-card {
+    padding: 25px;
+}
+.waiting-list-card span {
+    font-size: 15px;
+}
+.waiting-list-card span:nth-child(2) {
+    margin-left: 20px;
+}
+.waiting-list-card b {
+    font-size: 18px;
+}
+
+.waiting-list-item {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 60px;
+    background: white;
+    border: 1px solid #CED4DA;
+    cursor: pointer;
+}
+.waiting-list-item .flex-desktop {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.waiting-list-item .ticket-number {
+    font-size: 24px;
+    color: #EF454A;
+    font-weight: 600;
+}
+.waiting-list-item .estimate-time {
+    font-size: 18px;
+    font-weight: 600;
+}
+.waiting-list-item .ticket-time {
+    display: flex;
+    align-items: center;
+}
+.waiting-list-item .ticket-time .label {
+    font-size: 10px;
+}
+.waiting-list-item .ticket-time .text {
+    font-size: 18px;
+    margin-left: 40px;
+}
+.waiting-list-item .service-time {
+    display: flex;
+    align-items: center;
+}
+.waiting-list-item .service-time .label {
+    font-size: 10px;
+}
+.waiting-list-item .service-time .text {
+    font-size: 18px;
+    margin-left: 40px;
+}
+.waiting-list-item .w-30-desktop {
+    width: 30%;
+}
+.waiting-list-item .w-50-desktop {
+    width: 50%;
+}
+.waiting-list-item .w-20-desktop {
+    width: 20%;
+}
+
+/* MODAL */
+.modal-waiting-item .modal-body {
+    padding: 30px 20px;
+}
+.modal-waiting-item .ticket-number {
+    background: #E3DCCC;
+    font-size: 24px;
+    font-weight: 600;
+    width: 100%;
+    padding: 15px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.modal-waiting-item .row {
+    font-size: 14px;
+    line-height: 25px;
+}
+.modal-waiting-item .row > div:nth-child(odd) {
+    text-align: right;
+}
+.modal-waiting-item .lh-32 {
+    line-height: 32px;
+}
+.modal-waiting-item .select-minute {
+    height: 32px;
+    width: unset;
+    font-size: 18px;
+    line-height: 21px;
+    padding: 0px 5px 0px 15px;
+}
+.modal-waiting-item .modal-buttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+@media screen and (max-width: 767px) {
+    .waiting-list-card {
+        padding: 25px 5px;
+    }
+    .waiting-list-card span:nth-child(2) {
+        margin-left: 15px;
+    }
+    .waiting-list-item {
+        height: 90px;
+    }
+    .waiting-list-item .flex-desktop {
+        display: block;
+    }
+    .waiting-list-item .ticket-time .text {
+        margin-left: 10px;
+    }
+    .waiting-list-item .service-time {
+        margin-top: 10px;
+    }
+    .waiting-list-item .service-time .text {
+        margin-left: 10px;
+    }
+    .waiting-list-item .w-30-desktop {
+        width: unset;
+    }
+    .waiting-list-item .w-50-desktop {
+        width: unset;
+    }
+    .waiting-list-item .w-20-desktop {
+        width: unset;
+    }
+}
